@@ -1,0 +1,64 @@
+h4 {
+  color: lightslategrey;
+  font-family: sans-serif;
+}
+
+svg {
+  width: 35px;
+  height: 35px;
+  color: lightslategrey;
+}
+
+
+a {
+  cursor: pointer;
+
+}
+
+a:hover {
+  color: black;
+  text-decoration-line: none;
+}
+
+
+col, div {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+} */
+
+
+.rowstyle {
+  margin-top: 36px;
+}
+
+.eventcolor.active {
+  color: black;
+}
+
+
+
+@media (max-width: 768px) {
+  h4 {
+    font-size: 0.875rem;
+  }
+
+.eventhover:hover {
+  background-color: aliceblue;
+}
+
+}
