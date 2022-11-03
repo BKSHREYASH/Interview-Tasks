@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 		  $("#eventhover").hover(function(){
-		  
+
 
 		    $(".eventcolor").css("color","black");
 
@@ -130,6 +130,22 @@ function eventOnClick(num) {
   var num = parseInt(num);
 
   if(num==1) {
+
+      $("#showicon").show();
+      $("#hideicon").hide();
+
+      $("#showicon2").hide();
+      $("#hideicon2").show();
+
+      $("#showicon3").hide();
+      $("#hideicon3").show();
+
+      $("#showicon4").hide();
+      $("#hideicon4").show();
+
+      $("#showicon5").hide();
+      $("#hideicon5").show();
+
     $(".eventcolor").css("color","black");
 
     $(".eventcolor2").css("color","lightslategrey");
@@ -139,6 +155,22 @@ function eventOnClick(num) {
 
 
   } else if(num==2){
+
+    $("#showicon2").show();
+    $("#hideicon2").hide();
+
+    $("#hideicon").show();
+      $("#showicon").hide();
+
+      $("#showicon3").hide();
+      $("#hideicon3").show();
+
+      $("#showicon4").hide();
+      $("#hideicon4").show();
+
+      $("#showicon5").hide();
+      $("#hideicon5").show();
+
     $(".eventcolor").css("color","lightslategrey");
 
     $(".eventcolor2").css("color","black");
@@ -149,6 +181,24 @@ function eventOnClick(num) {
 
 
   } else if(num==3){
+
+    $("#showicon3").show();
+    $("#hideicon3").hide();
+
+    $("#showicon2").hide();
+    $("#hideicon2").show();
+
+    $("#hideicon").show();
+      $("#showicon").hide();
+
+
+
+      $("#showicon4").hide();
+      $("#hideicon4").show();
+
+      $("#showicon5").hide();
+      $("#hideicon5").show();
+
     $(".eventcolor").css("color","lightslategrey");
 
     $(".eventcolor2").css("color","lightslategrey");
@@ -156,6 +206,30 @@ function eventOnClick(num) {
     $(".eventcolor4").css("color","lightslategrey");
     $(".eventcolor5").css("color","lightslategrey");
   } else if(num==4){
+
+    $("#showicon4").show();
+    $("#hideicon4").hide();
+
+
+
+    $("#showicon").hide();
+    $("#hideicon").show();
+
+    $("#showicon2").hide();
+    $("#hideicon2").show();
+
+    $("#showicon3").hide();
+    $("#hideicon3").show();
+
+
+
+    $("#showicon5").hide();
+    $("#hideicon5").show();
+
+
+
+
+
     $(".eventcolor").css("color","lightslategrey");
 
     $(".eventcolor2").css("color","lightslategrey");
@@ -163,6 +237,26 @@ function eventOnClick(num) {
     $(".eventcolor4").css("color","black");
     $(".eventcolor5").css("color","lightslategrey");
   } else {
+
+    $("#showicon5").show();
+    $("#hideicon5").hide();
+
+    $("#showicon4").hide();
+    $("#hideicon4").show();
+
+
+
+    $("#showicon").hide();
+    $("#hideicon").show();
+
+    $("#showicon2").hide();
+    $("#hideicon2").show();
+
+    $("#showicon3").hide();
+    $("#hideicon3").show();
+
+
+
     $(".eventcolor").css("color","lightslategrey");
 
     $(".eventcolor2").css("color","lightslategrey");
